@@ -1,0 +1,30 @@
+{
+  "admin": {
+    "email": "admin@escola.com",
+    "senha": "admin123"
+  },
+  "alunos": [
+    {
+      "nome": "Aluno Automação 01",
+      "email": "aluno.automacao.01@example.com",
+      "matricula": "900001",
+      "senha": "123456",
+      "disciplinaId": "disciplina-matematica",
+      "trabalho": {
+        "titulo": "Trabalho de Automação de Testes",
+        "descricao": "Trabalho criado automaticamente pelo teste de API."
+      }
+    },
+    {
+      "nome": "Aluno Automação 02",
+      "email": "aluno.automacao.02@example.com",
+      "matricula": "900002",
+      "senha": "123456",
+      "disciplinaId": "disciplina-programacao-web",
+      "trabalho": {
+        "titulo": "Projeto de Programação Web",
+        "descricao": "Entrega criada automaticamente pelo teste de API."
+      }
+    }
+  ]
+}

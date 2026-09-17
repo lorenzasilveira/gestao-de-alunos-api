@@ -37,4 +37,8 @@ jobs:
       - name: Executar testes
         run: npm test
         env:
+          NODE_ENV: test
+          PORT: 3000
           MONGODB_URI: mongodb://127.0.0.1:27017/gestao-de-alunos-test
+          JWT_SECRET: github-actions-test-secret
+          JWT_EXPIRES_IN: 1h
